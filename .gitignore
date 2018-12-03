@@ -1,7 +1,10 @@
+__pycache__
+warp-ctc
 .DS_Store
 *.pth
 *.pyc
 *.pyo
 *.log
 *.tmp
-
+*.png
+*.jpg
