@@ -112,7 +112,6 @@ if opt.crnn != '':
     for key in list(param_odict.keys()):
         param_odict[key.replace('module.', '')] = param_odict[key]
         param_odict.pop(key)
-    #crnn.load_state_dict(torch.load(opt.crnn))
     crnn.load_state_dict(param_odict)
 print(crnn)
 
